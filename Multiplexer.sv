@@ -10,7 +10,7 @@ module mux4 ( input logic [3:0] ones,
 						3'b000:		out = ones;
 						3'b001:		out = tens;
 						2'b010:		out = hunds;
-						3'b100:		out = thous;
+						3'b011:		out = thous;
 						default: out = ones;
 					endcase
 				
