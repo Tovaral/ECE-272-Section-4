@@ -9,8 +9,8 @@ module mux4 ( input logic [3:0] ones,
 					case (stateSel)
 						3'b000:		out = ones;
 						3'b001:		out = tens;
-						2'b010:		out = hunds;
-						3'b011:		out = thous;
+						2'b011:		out = hunds;
+						3'b100:		out = thous;
 						default: out = ones;
 					endcase
 				
